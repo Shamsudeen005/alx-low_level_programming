@@ -13,7 +13,7 @@ for (ch = 'a'; ch <= 'z'; ch++)
 }
 
 /* print alphabets in uppercase*/
-for (ch = 'Z'; ch <= 'Z'; ch++)
+for (ch = 'A'; ch <= 'Z'; ch++)
 {
 	putchar(ch);
 }
