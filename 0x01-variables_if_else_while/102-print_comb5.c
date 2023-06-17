@@ -10,22 +10,19 @@ for (i = 0; i <= 99; i++)
 {
 for (j = i; j <= 99; j++)
 {
-	int tens_i = i / 10;
-	int ones_i = i % 10;
-	int tens_j = j / 10;
-	int ones_j = j % 10;
+	int i1 = i / 10;
+	int i2 = i % 10;
+	int j1 = j / 10;
+	int j2 = j % 10;
 
 
-	putchar(tens_i / 10 + '0');
-	putchar(tens_i % 10 + '0');
-	putchar(ones_i / 10 + '0');
-	putchar(ones_i % 10 + '0');
+	putchar('0' + i1);
+	putchar('0' + i2);
 	putchar(' ');
-	putchar(tens_j / 10 + '0');
-	putchar(tens_j % 10 + '0');
-	putchar(ones_j / 10 + '0');
-	putchar(ones_j % 10 + '0');
 
+
+	putchar('0' + j1);
+	putchar('0' + j2);
 
 	if (i != 99 || j != 99)
 {
@@ -34,5 +31,7 @@ for (j = i; j <= 99; j++)
 }
 }
 }
+
+putchar('\n');
 return (0);
 }
