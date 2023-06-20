@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-  *main -prints the sum of all multiplesof 3 and 5 up to 1024
-  *Return: 0(success)
-  */
+ *main -prints the sum of all multiplesof 3 and 5 up to 1024
+ *Return: 0(success)
+ */
 int main(void)
 {
 int i, z = 0;
